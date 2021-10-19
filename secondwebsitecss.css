@@ -1,0 +1,203 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+} 
+#nevbar{
+  position: relative;
+  display: flex;
+}
+#nevbar::before{
+     content:" ";
+     background-color: rgb(238, 182, 182);
+     position: absolute;
+     height: 110%;
+     width: 100%;
+     z-index: -1;
+     opacity: .4;
+}
+#logo{
+    margin: 3px 15px; 
+    padding: 0px 5px;
+}
+#logo img{
+    margin-top:10px ;
+    width: 100px;
+    border-radius: 10px; 
+}
+ 
+#nevbar ul{
+    display: flex;
+}
+#nevbar ul li{
+    list-style-type:none;
+}
+#nevbar ul li a{
+    font-family: cursive;
+    font-weight: bolder;
+    padding: 5px 32px;
+    margin-left: 15px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: block;
+    color: rgb(153, 58, 58);
+    border-radius: 20px;
+}
+#nevbar ul li a:hover{
+    color: black;   
+    transform: scale(1.5);
+}
+
+/* home sectioin */
+#home{
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    padding: 5px 100px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: " ";
+    background:url(img/pizza.jpg) ;
+    top:0px;
+    left: 0px;
+    position: absolute;
+    height: 650px;
+    width: 100%;
+    z-index: -1;
+    opacity: .7;
+}
+#home h2{
+    font-size: 60px;
+    font-family:  Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 30px;
+   
+}
+.btn{
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding:6px 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+
+/* service section */
+#servicesection{
+    /* align-items: center; */
+    text-align: center;   
+}
+#servicesection h1{
+    font-size: 60px;
+}
+.servicebox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.box{
+    text-align: center;
+    justify-content: center;
+    height: 300px;
+    width: 400px;
+    margin: 28px ;
+    border-radius: 23px;
+    background: rgb(241, 226, 226);
+    border: 2px solid rgb(116, 68, 68);
+}
+.box:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#box1 img{
+    height: 150px;
+    width:150px;
+    margin-top: 10px; 
+}
+#box2 img{
+    height: 150px;
+    width:150px;
+    margin-top: 10px;
+}
+#box3 img{
+    height: 150px;
+    width:150px;
+    margin-top: 10px;
+}
+
+
+
+
+/* client sectio */
+#clientsection{
+    text-align: center;
+}
+#clientsection h1{
+    font-size: 40px;
+    font-family: ;
+}
+.clientitem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#clientsection::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    background: url(img/vegetable.jpg);
+    left: 0px;
+   height: 325px;
+    z-index: -1;
+}
+.clientitem img{
+    margin:2px 2px;
+    padding: 2px ;
+    margin-bottom: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+
+/* Contact sectin */
+#contact{
+    border: 3px solid rgb(80, 74, 74);
+    text-align: center;
+    align-items: center;
+    background-image: url(img/old\ telephone.jpg);
+    /* background-repeat: none; */
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+#contact h1{
+    padding-top: 10px;
+    font-size: 30px;
+    color: lavenderblush;
+    margin-top: 25px;
+}
+form input{
+    background-color: rgb(184, 197, 170);
+    font-size: 20px;
+    border-radius: 10px;
+    margin:5px;
+}
+form input:hover{
+    background-color: rgb(158, 140, 140);
+    transform: scale(1.2);
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+

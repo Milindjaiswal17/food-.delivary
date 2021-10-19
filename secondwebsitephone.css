@@ -1,0 +1,70 @@
+
+/* navigation*/
+  #nevbar{
+      flex-direction: column;
+      top:0px;
+      left: 0px;
+      
+
+    }
+  #logo {
+      width: 100%;
+     text-align: center;
+      margin-left: 0px;
+  }
+  #nevbar ul li a{
+      padding: 0px 2px;
+      font-size: 15px;
+  }
+
+/* home */
+#home{
+ 
+    padding-bottom: 0px;
+    margin: 0px 0px;
+    padding: 0px 20px;
+
+}
+#home h2{
+    margin-top: 0px;
+   padding-top: 0px;
+    font-size: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#home::before{
+    height:105%;
+}
+.btn{
+    margin-top: 25px;
+}
+
+
+/* Services */
+.servicebox{
+    flex-direction: column;
+    padding-left: 2px;
+}
+.box{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* client */
+.clientitem img{
+    height: 50px;
+    width: 50px;
+}
+
+
+/* contact */
+#contact{
+    width: 98%;
+}
+
+/* footer */
+footer{
+    background-color: rgb(0, 0, 0);
+}
+
